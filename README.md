@@ -1,5 +1,19 @@
 # Basic_Javascript
 
+### Basic Conecpts
+
+  ### Console
+  console.log() ==>> Prints the element in an HTML Like tree.
+  console.dir() ==>> Prints the element in a JSON Like tree.
+  
+  ### JS Comments
+  // Single Line Comments
+  /*
+    This is mulit line
+    Comments
+  */
+
+
 ### 06. JS Variables 
   var name = "Golam Rabbani"
   
@@ -7,6 +21,10 @@
    var = keyword,
    name = variable name,
    value = "Golam Rabbani"
+   
+   varible Naming Convention:-
+   https://www.w3schools.com/js/js_variables.asp
+   
    
  ### 07. Js Reserved Word
     For Reference :_
@@ -32,7 +50,20 @@
       b. Object
       c. Function
       
-### 08. Js Number
+    ### Shortly
+    
+    Data Types:-
+    1. Number (1234)
+    2. biInt  (1234567895n)
+    3. Boolean (true/false)
+    4. String ("strign")
+    5. Undefined 
+    6. Null 
+    7. Object
+
+  *** Normal Number range min -(2^53 -1) and max (2^53-1).
+      
+### 09. Js Number
   
       Number Literal:-
       var num = 1234
@@ -46,7 +77,89 @@
       # If Type Not Match, Return NaN(Not A Number)
         'abc' * 100 = NaN
       
-    
+### 10. Js String (''/"")
+  Anything Wrapped between quotes are called string
+  
+      String Literal:-
+      var str = "1234"
+      
+      String Constructor:-
+      var str = String(1234)
+      
+### 11. Js Boolean
+  A JavaScript Boolean represents one of two values: true or false.
+  
+      True =>> Return 1
+      
+      False =>> Return 0
 
-   
+### 12. Js Null & Undefined
+
+  Undefined: A variable without value always stroe undefined.
+  
+  Null: A variable with unknown value can stroe null.
+  
+  *** Null is a special type used as a absence of an object.
+  
+  ### 13. Js Type Conversion
+  
+    1. Implicit Conversion: In certain situation, Javascript automatically converts one data type to another (to the right type) . This is known as implicit type conversion.
+    2. Explicit Conversion: You can also convert one data type to another as per your needs. The type conversion that you do manually is known as explicit type conversion.
+    
+    For Reference:
+    https://www.programiz.com/javascript/type-conversion
+    
+    ### Truthy / Falsy Value--
+    
+    Falsy Value- 
+    a. '' (Empty String)
+    b. 0  (Zero)
+    c. Null 
+    d. Undefined
+    e. NaN
+    f. false
+    
+    *** Otherwiser all are truthy Value..
+    
+### 15. Js Operators
+
+  1. Arithmetic Operator:
+    +, -, *, /, %, ++, --
+    
+  2. Assignmnet  Operator:
+    =, +=, -=, *=, /=, %=
+
+  3. Comparison  Operator (Return Boolean) :
+    ==, !=, >, <, >=, <=, ===, !==
+    
+  4. Logical Operator 
+    &&, ||, !
+    
+  5. Typeof Operator
+      typeof
+    
+### 17. Js Math Functions
+    
+    var num = 4.589;
+    
+    a. Math.abs(num)  return 4.589;
+    b. Math.floor(num)  return 4;
+    c. Math.ceil(num) return 5;
+    d. Math.round(num) return 5;
+      Math term a calculation feedback like as 4.5 = 5, 4.4 = 4, 4.8 = 5;
+    e. Math.max(100,200,300) return 300;
+    f. Math.min(100,200,300) return 100;
+    g. Math.pow(2,4) return 16;
+    h. Math.sqrt(64) return 8;
+    i. Math.randorm() return random number each call;
+       if we need less than 50-
+       Math.random()*50+1;
+       For int value =>> Math.floor(Math.random()*50+1;) or use pareInt
+      
+### 18. Js Date Functions
+  
+  For Refercence:
+  https://www.w3schools.com/js/js_date_methods.asp
+    
+    
   
