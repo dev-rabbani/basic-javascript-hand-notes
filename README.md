@@ -160,6 +160,59 @@
   
   For Refercence:
   https://www.w3schools.com/js/js_date_methods.asp
+  
+### 20, 21, 22. JS Logic & Condition
+  
+  if, if else, else if , nested else if...
+  
+  For Reference :
+  https://www.w3schools.com/js/js_if_else.asp
+  https://javascript.info/ifelse
+  https://www.programiz.com/javascript/if-else
+  
+### 24. JS Switch Statement 
+
+  For Reference:
+  https://www.programiz.com/javascript/switch-statement
+  
+### 25. JS Logical Operator
+  
+  &&, ||, !
+  
+  For Reference: 
+  https://javascript.info/logical-operators
+  
+### 26. JS Ternary Operator:
+  
+  condition ? true block : false block;
+### 27. Shorthand (&&  /  || )
+
+For Reference:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND
+
+### 28. JS Loops
+
+  Loops are statemnet which execute some blocks of code repeatedly untill the condition becomes false.
+  a. For Loop: 
+  for(initialization; condition; steping){
+    Block
+  }
+  b. While Loop:
+  while(condition){
+    block
+  }
+  c. Do While Loop: 
+  do{
+    block
+  } whtile(condition) {
+    block;
+    steping;
+  }
+  
+  For Reference:
+  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration
+  
+  
     
     
   
